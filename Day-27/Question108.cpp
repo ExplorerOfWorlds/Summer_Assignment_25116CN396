@@ -18,7 +18,7 @@ int main(){
     cin.ignore();
     Student s[n];
     for(int i=0;i<n;i++){
-        cout<<"\nEnter student name: ";
+        cout<<"\n<<"Enter student name: ";
         getline(cin,s[i].name);
         cout<<"Enter roll number: ";
         cin>>s[i].rollNo;
